@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  min-width: 400px;
+}
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: Roboto, arial, sans-serif;
+  color: #202124;
+}
+body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.left-side,
+.right-side {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.camera {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.microphone {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.profilePic {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}
+.searchIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.threeDots {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.search-form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfe1e5;
+  gap: 1rem;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+}
+.search-form label {
+  display: none;
+}
+.search-form input {
+  width: 27rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+.search-form button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 1ppx 4px;
+  padding: 0 16px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgrey;
+  margin-top: 15rem;
+}
+.bottom-section a {
+  margin: 0 1rem;
+}
